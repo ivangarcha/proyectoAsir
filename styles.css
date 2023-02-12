@@ -1,0 +1,30 @@
+* {
+    backgraound-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Cabecera {
+    min-height: 7em;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.Subcabecera {
+    color: #3f51b5;
+}
+
+.chart {
+  width: 100%; 
+  min-height: 450px;
+}
+.row {
+  margin:0 !important;
+}
+
+#datos1 {
+  margin-top: 20px !important
+} 
+
+#datos2 {
+  margin-top: 20px !important
+} 

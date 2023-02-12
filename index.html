@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="styles.css">    
+    <title>Proyecto de Asir</title>
+  </head>
+
+  <body>
+   <div class="panel panel-info">
+       <div class="panel-heading">Datos de las últimas 24 horas</div>
+       <div class="panel-body">
+	   <div class="panel panel-default">
+	       <div class="row">
+		    <div class="col-sm-12 col-md-9">
+		    	<div class="chart" id="graphTemperature"></div>
+		    </div>
+		    <div id="datos1" class="col-sm-3 col-md-2">
+			<div class="form-group">
+			   <label for="tempMax">Temperatura máxima</label> 
+			    <input id="tempMax" class="form-control" disabled></input>
+			</div>
+			<div class="form-group">    
+			    <label for="tempMin">Temperatura mínima</label>
+			    <input id="tempMin" class="form-control" disabled></input>
+			</div>
+			<div class="form-group">
+			    <label for="lastTemperature">Última lectura</label>
+			    <input id="lastTemperature" class="form-control" disabled></input>
+			</div>
+		    </div>
+		</div>   
+	    </div>
+	    <div class="panel panel-default">
+		<div class="row">
+		    <div class="col-sm-12 col-md-9">
+		    	<div class="chart" id="graphHumedity"></div>
+		    </div>
+		    <div id="datos2" class="col-sm-3 col-md-2">
+			<div class="form-group">
+			   <label for="humMax">Humedad máxima</label> 
+			    <input id="humMax" class="form-control" disabled></input>
+			</div>
+			<div class="form-group">    
+			    <label for="humMin">Humedad mínima</label>
+			    <input id="humMin" class="form-control" disabled></input>
+			</div>
+			<div class="form-group">
+			    <label for="lastHumedity">Última lectura</label>
+			    <input id="lastHumedity" class="form-control" disabled></input>
+			</div>
+		    </div>
+		</div> 
+	    </div>
+	    </div>    
+       </div>
+       <script src="main.js"></script>
+  </body>
+</html>
